@@ -11,7 +11,7 @@ const projects = [
     {
       img: project1,
       title: "Movie App",
-      description: "UI for frontend development using React.",
+      description: "A React-based movie application with dynamic search and detailed movie information.",
       links: {
         site: "https://movie1-zeta.vercel.app/",
         github: "https://github.com/ayushkumarsingh14/Movie",
@@ -20,7 +20,7 @@ const projects = [
     {
       img: project2,
       title: "IndorePlants",
-      description: "A fullstack application built with Node.js and MongoDB.",
+      description: "Frontend of an e-commerce website for indoor plants, built to sharpen Tailwind CSS skills.",
       links: {
         site: "https://ayushkumarsingh14.github.io/Indoreplants/",
         github: "https://github.com/ayushkumarsingh14/Indoreplants",
@@ -29,7 +29,7 @@ const projects = [
     {
       img: project3,
       title: "Weather App",
-      description: "Personal portfolio showcasing my projects.",
+      description: "A weather application providing real-time weather data using external APIs.",
       links: {
         site: "https://ayushkumarsingh14.github.io/Weather/",
         github: "https://github.com/ayushkumarsingh14/Weather",
@@ -38,7 +38,7 @@ const projects = [
     {
       img: project4,
       title: "Typing Test",
-      description: "An e-commerce platform with various features.",
+      description: "A typing speed test application to measure typing accuracy and speed.",
       links: {
         site: "https://ayushkumarsingh14.github.io/TypingTest/",
         github: "https://github.com/ayushkumarsingh14/TypingTest",
@@ -47,7 +47,7 @@ const projects = [
     {
       img: project5,
       title: "Tic-Tac-Toe",
-      description: "A mobile-friendly application using React Native.",
+      description: "A Tic-Tac-Toe game with Easy and Hard modes using Minimax algorithm.",
       links: {
         site: "https://ayushkumarsingh14.github.io/Tic-Tac-Toe/",
         github: "https://github.com/ayushkumarsingh14/Tic-Tac-Toe",
@@ -56,7 +56,7 @@ const projects = [
     {
       img: project6,
       title: "To-Do",
-      description: "A data visualization project using D3.js and other libraries.",
+      description: "A simple and efficient To-Do list app to manage daily tasks.",
       links: {
         site: "https://ayushkumarsingh14.github.io/To-Do/",
         github: "https://github.com/ayushkumarsingh14/To-Do",
