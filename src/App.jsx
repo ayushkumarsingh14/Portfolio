@@ -43,7 +43,8 @@ function App() {
       <Hero/>
       <Skills/>
       <Portfolio/>
-
+      <Experience/>
+      <Contact/>
     </div>
   )
 }
