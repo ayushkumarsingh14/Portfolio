@@ -93,11 +93,10 @@ const Portfolio = () => {
           className={`flex flex-col md:flex-row ${index % 2 !== 0 ? 'md:flex-row-reverse' : ''} mb-12`}
         >
           <div className='w-full md:w-1/2 p-4 relative group'>
-            {/* Agar Video Play Ho Raha Hai toh Video Dikhao */}
             {playingVideo === index ? (
               <video
                 src={project.video}
-                className='w-full h-full object-cover rounded-lg shadow-lg hover:shadow-xl transition duration-300'
+                className='w-full h-full object-cover rounded-lg shadow-lg hover:shadow-2xl hover:scale-105 transition duration-300'
                 controls
                 autoPlay
               />
@@ -106,9 +105,8 @@ const Portfolio = () => {
                 <img
                   src={project.img}
                   alt={project.title}
-                  className='w-full h-full object-cover rounded-lg shadow-lg hover:shadow-xl transition duration-300'
+                  className='w-full h-full object-cover rounded-lg shadow-lg hover:shadow-2xl hover:scale-105 transition duration-300'
                 />
-                {/* Play Icon */}
                 <FaPlayCircle 
                   className="absolute inset-0 m-auto text-white text-6xl opacity-80 group-hover:opacity-100 transition duration-300" 
                 />
