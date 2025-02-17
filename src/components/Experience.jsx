@@ -34,9 +34,10 @@ const experiences = [
         description: 'Developed a Tic-Tac-Toe game using React with Player vs Computer mode. Implemented Minimax Algorithm for unbeatable AI in Hard mode.'
     },
     {
-        company: 'NFT-Themed Web3 Project',
-        period: '2025',
-        description: 'Built an NFT-themed project with AI-generated images, blockchain integration, and marketplace for buying and selling NFTs.'
+        company: 'Data Structures and Algorithms (DSA) Mastery',
+        period: '2024-2025',
+        description: 'Mastered Trees, Graphs, Linked Lists, Stacks, and Queues in Java. Solved 140+ problems on GeeksforGeeks, enhancing problem-solving and algorithmic skills.'
+
     }
 ]
 
