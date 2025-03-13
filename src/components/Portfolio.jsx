@@ -68,11 +68,11 @@ const projects = [
     {
       img: project6,
       video: video6,
-      title: "To-Do",
-      description: "A simple and efficient To-Do list app to manage daily tasks.",
+      title: "Image Generator",
+      description: "An AI-powered image generator that creates unique images based on user input using DALL·E.",
       links: {
-        site: "https://ayushkumarsingh14.github.io/To-Do/",
-        github: "https://github.com/ayushkumarsingh14/To-Do",
+        site: "https://image-generator-murex.vercel.app/",
+        github: "https://github.com/ayushkumarsingh14/Image-Generator",
       },
     },
 ];
