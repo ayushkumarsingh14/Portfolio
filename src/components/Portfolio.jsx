@@ -15,67 +15,74 @@ import { AiFillGithub } from 'react-icons/ai';
 import { FaPlayCircle } from 'react-icons/fa';
 
 const projects = [
-    {
-      img: project1,
-      video: video1,
-      title: "Movie App",
-      description: "A React-based movie application with dynamic search and detailed movie information.",
-      links: {
-        site: "https://movie1-zeta.vercel.app/",
-        github: "https://github.com/ayushkumarsingh14/Movie",
-      },
+  {
+    img: project1,
+    video: video1,
+    title: "Background Remover",
+    description:
+      "An AI-powered background remover tool built using React that automatically removes image backgrounds with precision and speed.",
+    links: {
+      site: "https://ayushkumarsingh14.github.io/BackgroundRemover/",
+      github: "https://github.com/ayushkumarsingh14/BackgroundRemover",
     },
-    {
-      img: project2,
-      video: video2,
-      title: "IndorePlants",
-      description: "Frontend of an e-commerce website for indoor plants, built to sharpen Tailwind CSS skills.",
-      links: {
-        site: "https://ayushkumarsingh14.github.io/Indoreplants/",
-        github: "https://github.com/ayushkumarsingh14/Indoreplants",
-      },
+  },
+  {
+    img: project2,
+    video: video2,
+    title: "Movie App",
+    description:
+      "A React-based movie application with dynamic search and detailed movie information.",
+    links: {
+      site: "https://movie1-zeta.vercel.app/",
+      github: "https://github.com/ayushkumarsingh14/Movie",
     },
-    {
-      img: project3,
-      video: video3,
-      title: "Weather App",
-      description: "A weather application providing real-time weather data using external APIs.",
-      links: {
-        site: "https://ayushkumarsingh14.github.io/Weather/",
-        github: "https://github.com/ayushkumarsingh14/Weather",
-      },
+  },
+  {
+    img: project3,
+    video: video3,
+    title: "IndorePlants",
+    description:
+      "Frontend of an e-commerce website for indoor plants, built to sharpen Tailwind CSS skills.",
+    links: {
+      site: "https://ayushkumarsingh14.github.io/Indoreplants/",
+      github: "https://github.com/ayushkumarsingh14/Indoreplants",
     },
-    {
-      img: project4,
-      video: video4,
-      title: "Typing Test",
-      description: "A typing speed test application to measure typing accuracy and speed.",
-      links: {
-        site: "https://ayushkumarsingh14.github.io/TypingTest/",
-        github: "https://github.com/ayushkumarsingh14/TypingTest",
-      },
+  },
+  {
+    img: project4,
+    video: video4,
+    title: "Typing Test",
+    description:
+      "A typing speed test application to measure typing accuracy and speed.",
+    links: {
+      site: "https://ayushkumarsingh14.github.io/TypingTest/",
+      github: "https://github.com/ayushkumarsingh14/TypingTest",
     },
-    {
-      img: project5,
-      video: video5,
-      title: "Tic-Tac-Toe",
-      description: "A Tic-Tac-Toe game with Easy and Hard modes using Minimax algorithm.",
-      links: {
-        site: "https://ayushkumarsingh14.github.io/Tic-Tac-Toe/",
-        github: "https://github.com/ayushkumarsingh14/Tic-Tac-Toe",
-      },
+  },
+  {
+    img: project5,
+    video: video5,
+    title: "Typing Test",
+    description:
+      "A typing speed test application to measure typing accuracy and speed.",
+    links: {
+      site: "https://ayushkumarsingh14.github.io/TypingTest/",
+      github: "https://github.com/ayushkumarsingh14/TypingTest",
     },
-    {
-      img: project6,
-      video: video6,
-      title: "Image Generator",
-      description: "An AI-powered image generator that creates unique images based on user input using DALL·E.",
-      links: {
-        site: "https://image-generator-murex.vercel.app/",
-        github: "https://github.com/ayushkumarsingh14/Image-Generator",
-      },
+  },
+  {
+    img: project6,
+    video: video6,
+    title: "Tic-Tac-Toe",
+    description:
+      "A Tic-Tac-Toe game with Easy and Hard modes using Minimax algorithm.",
+    links: {
+      site: "https://ayushkumarsingh14.github.io/Tic-Tac-Toe/",
+      github: "https://github.com/ayushkumarsingh14/Tic-Tac-Toe",
     },
+  },
 ];
+
 
 const Portfolio = () => {
   const [playingVideo, setPlayingVideo] = useState(null);
