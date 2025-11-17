@@ -1,23 +1,25 @@
 import React, { useState } from 'react';
-import project1 from "../assets/project1.png";
-import project2 from "../assets/project2.jpeg";
-import project3 from "../assets/project3.jpeg";
-import project4 from "../assets/project4.jpeg";
-import project5 from "../assets/project5.jpeg";
-import project6 from "../assets/project6.jpeg";
-import video1 from "../assets/project1.mp4";
-import video2 from "../assets/project2.mp4";
-import video3 from "../assets/project3.mp4";
-import video4 from "../assets/project4.mp4";
-import video5 from "../assets/project5.mp4";
-import video6 from "../assets/project6.mp4";
+import Background_Remover from "../assets/BGRemover.png";
+import Movie_App from "../assets/Movie.jpeg";
+import Indore_Plants from "../assets/IndorePlants.jpeg";
+import Weather_App from "../assets/Weather.jpeg";
+import Typing_Test from "../assets/TypingTest.jpeg";
+import Tic_Tac_Toe from "../assets/TicTacToe.jpeg";
+import Socially from "../assets/socially.png";
+import SociallyVideo from "../assets/Socially.mp4"
+import BackgroundRemover from "../assets/BGRemover.mp4";
+import MovieApp from "../assets/Movie.mp4";
+import IndorePlants from "../assets/IndorePlants.mp4";
+import WeatherApp from "../assets/Weather.mp4";
+import TypingTest from "../assets/TypingTest.mp4";
+import TicTacToe from "../assets/TicTacToe.mp4";
 import { AiFillGithub } from 'react-icons/ai';
 import { FaPlayCircle } from 'react-icons/fa';
 
 const projects = [
   {
-    img: project1,
-    video: video1,
+    img: Background_Remover,
+    video: BackgroundRemover,
     title: "Background Remover",
     description:
       "An AI-powered background remover tool built using React that automatically removes image backgrounds with precision and speed.",
@@ -27,8 +29,20 @@ const projects = [
     },
   },
   {
-    img: project2,
-    video: video2,
+  img: Socially,
+  video: SociallyVideo,
+  title: "Socially",
+  description:
+    "A modern social media platform built with Next.js featuring user authentication, posting, commenting, and a clean responsive UI.",
+  links: {
+    site: "https://socially.vercel.app/",
+    github: "https://github.com/ayushkumarsingh14/Socially",
+  },
+},
+
+  {
+    img: Movie_App,
+    video: MovieApp,
     title: "Movie App",
     description:
       "A React-based movie application with dynamic search and detailed movie information.",
@@ -38,8 +52,8 @@ const projects = [
     },
   },
   {
-    img: project3,
-    video: video3,
+    img: Indore_Plants,
+    video: IndorePlants,
     title: "IndorePlants",
     description:
       "Frontend of an e-commerce website for indoor plants, built to sharpen Tailwind CSS skills.",
@@ -49,8 +63,8 @@ const projects = [
     },
   },
   {
-  img: project5,
-video: video5,
+  img: Weather_App,
+video: WeatherApp,
 title: "Weather App",
 description:
   "A real-time weather application that shows temperature, humidity, wind speed, and conditions using live API data.",
@@ -61,8 +75,8 @@ description:
     },
   },
   {
-    img: project5,
-    video: video5,
+    img: Typing_Test,
+    video: TypingTest,
     title: "Typing Test",
     description:
       "A typing speed test application to measure typing accuracy and speed.",
@@ -72,8 +86,8 @@ description:
     },
   },
   {
-    img: project6,
-    video: video6,
+    img: Tic_Tac_Toe,
+    video: TicTacToe,
     title: "Tic-Tac-Toe",
     description:
       "A Tic-Tac-Toe game with Easy and Hard modes using Minimax algorithm.",

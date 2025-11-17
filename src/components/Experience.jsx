@@ -4,42 +4,31 @@ import { motion } from 'framer-motion'
 
 const experiences = [
     {
-        company: 'Weather Project',
+        company: 'Build for India Hackathon',
         period: '2024',
-        description: 'Built a weather application using HTML, CSS, and JavaScript. Implemented real-time weather data fetching using APIs.'
+        description:
+            'Reached the semifinals among 25,000+ teams, securing a position in the top 80 globally.'
     },
     {
-        company: 'Typing Speed Test',
+        company: 'Microsoft Office – Ideathon Event',
         period: '2024',
-        description: 'Developed a typing speed test application using HTML, CSS, and JavaScript. Added dynamic speed calculation and error tracking.'
+        description:
+            'Organized and managed an Ideathon event in collaboration with Microsoft Office, ensuring smooth coordination and participation.'
     },
     {
-        company: 'Plant Website',
-        period: '2024',
-        description: 'Designed a responsive plant website using Tailwind CSS with modern UI/UX practices.'
-    },
-    {
-        company: 'Amazon Clone',
-        period: '2024',
-        description: 'Created an Amazon Clone using HTML, CSS, and JavaScript, with product listings and cart functionalities.'
-    },
-    {
-        company: 'Movie App',
-        period: '2025',
-        description: 'Built a movie app using React with features like movie search, details, and dynamic routing.'
-    },
-    {
-        company: 'Tic-Tac-Toe Game',
-        period: '2025',
-        description: 'Developed a Tic-Tac-Toe game using React with Player vs Computer mode. Implemented Minimax Algorithm for unbeatable AI in Hard mode.'
+        company: 'Hashtag Tech Society',
+        period: '2024-Present',
+        description:
+            'Serving as the Technical Team Head, leading and mentoring members on development-focused initiatives and events.'
     },
     {
         company: 'Data Structures and Algorithms (DSA) Mastery',
         period: '2024-2025',
-        description: 'Mastered Trees, Graphs, Linked Lists, Stacks, and Queues in Java. Solved 140+ problems on GeeksforGeeks, enhancing problem-solving and algorithmic skills.'
-
+        description:
+            'Mastered Trees, Graphs, Linked Lists, Stacks, and Queues in Java. Solved 140+ problems on GeeksforGeeks, enhancing problem-solving and algorithmic skills.'
     }
-]
+];
+
 
 const Experience = () => {
   return (
