@@ -22,8 +22,8 @@ const projects = [
     description:
       "An AI-powered background remover tool built using React that automatically removes image backgrounds with precision and speed.",
     links: {
-      site: "https://ayushkumarsingh14.github.io/BackgroundRemover/",
-      github: "https://github.com/ayushkumarsingh14/BackgroundRemover",
+      site: "https://bg-remover-rouge-eta.vercel.app/",
+      github: "https://github.com/ayushkumarsingh14/BG-Remover-back",
     },
   },
   {
@@ -49,11 +49,12 @@ const projects = [
     },
   },
   {
-    img: project4,
-    video: video4,
-    title: "Typing Test",
-    description:
-      "A typing speed test application to measure typing accuracy and speed.",
+  img: project5,
+video: video5,
+title: "Weather App",
+description:
+  "A real-time weather application that shows temperature, humidity, wind speed, and conditions using live API data.",
+
     links: {
       site: "https://ayushkumarsingh14.github.io/TypingTest/",
       github: "https://github.com/ayushkumarsingh14/TypingTest",
