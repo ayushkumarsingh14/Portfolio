@@ -5,7 +5,7 @@ import Indore_Plants from "../assets/IndorePlants.jpeg";
 import Weather_App from "../assets/Weather.jpeg";
 import Typing_Test from "../assets/TypingTest.jpeg";
 import Tic_Tac_Toe from "../assets/TicTacToe.jpeg";
-import Socially from "../assets/socially.png";
+import Socially from "../assets/Socially.png";
 import SociallyVideo from "../assets/Socially.mp4"
 import BackgroundRemover from "../assets/BGRemover.mp4";
 import MovieApp from "../assets/Movie.mp4";
