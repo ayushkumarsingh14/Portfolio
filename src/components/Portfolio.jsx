@@ -35,7 +35,7 @@ const projects = [
   description:
     "A modern social media platform built with Next.js featuring user authentication, posting, commenting, and a clean responsive UI.",
   links: {
-    site: "https://socially.vercel.app/",
+    site: "https://socially-eight-umber.vercel.app/",
     github: "https://github.com/ayushkumarsingh14/Socially",
   },
 },
